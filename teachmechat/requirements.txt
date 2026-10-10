@@ -1,0 +1,15 @@
+PySide6==6.8.3
+prompt_toolkit>=3.0.48,<4
+psutil>=6.1,<8
+pycryptodome>=3.21,<4
+Pillow>=11,<13
+sqlcipher3==0.6.3
+zstandard>=0.23,<1
+lz4>=4.3,<5
+protobuf>=4.25,<5
+xmltodict>=0.14,<2
+pysilk-mod==1.6.4
+aiofiles>=24.1,<26
+pywin32>=308; sys_platform == "win32"
+pymem==1.14.0; sys_platform == "win32"
+yara-python>=4.5,<5; sys_platform == "win32"

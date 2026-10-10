@@ -1,0 +1,74 @@
+.vscode
+.idea
+build
+data
+sqlcipher-3.0.1
+dist
+venv
+venv_decrypt
+venv_main_pc
+TEST
+app/data/avatar
+app/data/image2
+app/data/emoji
+app/DataBase/Msg/*
+server
+*.db
+*.bin
+*.json
+*.txt
+*.ui
+*.pyc
+*.bat
+*.log
+*.spec
+test*
+wordcloud.html
+
+# TeachMeChat runtime and sensitive local artifacts (never release inputs).
+.teachmechat-runtime/
+__pycache__/
+.pytest_cache/
+.venv/
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.key
+*.pem
+*.pfx
+*.tmp
+*.bak
+.env
+.env.*
+info.json
+settings.json
+credentials.json
+keys.json
+wxid_*/
+*_decrypted_*/
+synthetic_sources_*/
+synthetic_release_*/
+
+# Keep source tests and dependency declarations despite the legacy broad rules.
+!teachmechat/tests/
+!teachmechat/tests/test_*.py
+!requirements.txt
+!teachmechat/requirements.txt
+!teachmechat/requirements-lock.txt
+!wxManager/decrypt/version_list.json
+
+# Release provenance files needed for the new sources.
+!teachmechat/LICENSE
+!teachmechat/NOTICE.md
+!teachmechat/CONTRIBUTING.md
+!teachmechat/SECURITY.md
+!teachmechat/CHANGELOG.md
+!teachmechat/PUBLISHING.md
+
+# Personal one-off scripts: keep their real names in .git/info/exclude (local,
+# never committed) instead of this shared file, so no contact or account name
+# is ever published. See teachmechat/PUBLISHING.md step a).
